@@ -35,9 +35,14 @@ To contribute to the Disease Tracker project, please follow the guidelines below
 - Install any necessary SDKs or dependencies as prompted by Android Studio.
 
 3. Backend Setup:
-- This app currently does not require backend support (all data is locally managed). However, for future scalability, you can set up an API to handle user data and queries.
+- Set up the PHP backend on a server.
+- Update the API base URL in the Android app code to point to your backend server.
 
-4. Run the App:
+4. Database Setup:
+- Create a new MySQL database.
+- Import the `database.sql` file located in the backend directory to set up the required tables.
+
+5. Run the App:
 - Build and run the app on an Android emulator or a physical device.
 
 ### Usage Instructions
@@ -47,4 +52,14 @@ To contribute to the Disease Tracker project, please follow the guidelines below
 - **Check Risk of Exposure:** Users can query whether they were at a specific location on the same day as someone diagnosed with Covid-19.
 - **View Location Statistics:** The app provides a list of locations along with the number of infected individuals who have checked in.
 
+### Important Notes
+
+- **No direct push to the main branch:** Always create your own branch and submit a pull request to merge.
+- **Sprint Contributions:** Ensure that there is a push after every sprint or milestone.
+
+### Future Enhancements
+
+- **GPS Integration:** Support for GPS-based location check-ins.
+- **Notifications:** Implement push notifications to alert users if they have been exposed to someone with Covid-19.
+- **Backend Support:** Integrate a backend API for handling large-scale data and providing real-time updates.
 
