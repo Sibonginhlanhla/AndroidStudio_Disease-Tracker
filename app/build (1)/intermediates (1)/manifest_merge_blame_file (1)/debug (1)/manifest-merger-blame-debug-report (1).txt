@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.covidtrackertwo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:3:5-66
+11-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:4:5-81
+12-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:4:22-78
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\Kabelo\.gradle\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.covidtrackertwo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\Kabelo\.gradle\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\Kabelo\.gradle\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.covidtrackertwo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\Kabelo\.gradle\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\Kabelo\.gradle\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:6:5-33:19
+21        android:allowBackup="true"
+21-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:7:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\Kabelo\.gradle\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:8:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:9:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:10:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:11:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:12:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:13:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.CovidTrackerTwo" >
+32-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:14:9-53
+33        <activity
+33-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:17:9-24:20
+34            android:name="com.example.covidtrackertwo.SIGN_UP"
+34-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:18:13-36
+35            android:exported="true" >
+35-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:19:13-36
+36            <intent-filter>
+36-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:20:13-23:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:21:17-69
+37-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:21:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:22:17-77
+39-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:22:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:26:9-28:40
+43            android:name="com.example.covidtrackertwo.LOGIN"
+43-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:27:13-34
+44            android:exported="false" />
+44-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:28:13-37
+45        <activity
+45-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:30:9-32:40
+46            android:name="com.example.covidtrackertwo.MainActivity"
+46-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:31:13-41
+47            android:exported="false" />
+47-->C:\Users\Kabelo\Documents\CovidTrackerTwo233\app\src\main\AndroidManifest.xml:32:13-37
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kabelo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kabelo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+51            android:authorities="com.example.covidtrackertwo.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kabelo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kabelo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kabelo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kabelo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kabelo\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Kabelo\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Kabelo\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Kabelo\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+59        </provider>
+60
+61        <uses-library
+61-->[androidx.window:window:1.0.0] C:\Users\Kabelo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+62            android:name="androidx.window.extensions"
+62-->[androidx.window:window:1.0.0] C:\Users\Kabelo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0] C:\Users\Kabelo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+64        <uses-library
+64-->[androidx.window:window:1.0.0] C:\Users\Kabelo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+65            android:name="androidx.window.sidecar"
+65-->[androidx.window:window:1.0.0] C:\Users\Kabelo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0] C:\Users\Kabelo\.gradle\caches\transforms-3\db49f4780b9136f5cf8fc0e75af79fac\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+67    </application>
+68
+69</manifest>

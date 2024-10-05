@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/locationsFragment">
+
+    <fragment
+        android:id="@+id/locationsFragment"
+        android:name="com.example.covidtrackertwo.fragments.LocationsFragment"
+        android:label="@string/location"
+        tools:layout="@layout/fragment_locations" >
+        <action
+            android:id="@+id/action_locationsFragment_to_viewLocationFragment"
+            app:destination="@id/viewLocationFragment">
+
+        <argument
+            android:name="location_id"
+            app:argType="integer" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.covidtrackertwo.fragments.HistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_historyFragment_to_viewHistory"
+            app:destination="@id/viewHistory" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewLocationFragment"
+        android:name="com.example.covidtrackertwo.fragments.ViewLocationFragment"
+        android:label="@string/view_location"
+        tools:layout="@layout/fragment_view_location" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.covidtrackertwo.fragments.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/viewHistory"
+        android:name="com.example.covidtrackertwo.fragments.ViewHistory"
+        android:label="fragment_view_history"
+        tools:layout="@layout/fragment_view_history" />
+</navigation>

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-mergeDebugResources-43:\\layout\\fragment_view_history.xml",
+        "source": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-main-46:\\layout\\fragment_view_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-mergeDebugResources-43:\\layout\\fragment_history.xml",
+        "source": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-main-46:\\layout\\fragment_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-mergeDebugResources-43:\\layout\\location_item.xml",
+        "source": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-main-46:\\layout\\location_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-mergeDebugResources-43:\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-main-46:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.covidtrackertwo.app-mergeDebugResources-43:/layout/history_item.xml",
+        "source": "com.example.covidtrackertwo.app-main-46:/layout/history_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-mergeDebugResources-43:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-main-46:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-mergeDebugResources-43:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-main-46:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-mergeDebugResources-43:\\layout\\fragment_locations.xml",
+        "source": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-main-46:\\layout\\fragment_locations.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-mergeDebugResources-43:\\layout\\history_item.xml",
+        "source": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-main-46:\\layout\\history_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-mergeDebugResources-43:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-main-46:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-mergeDebugResources-43:\\layout\\fragment_view_location.xml",
+        "source": "C:\\Users\\Kabelo\\.gradle\\daemon\\8.0\\com.example.covidtrackertwo.app-main-46:\\layout\\fragment_view_location.xml"
+    }
+]

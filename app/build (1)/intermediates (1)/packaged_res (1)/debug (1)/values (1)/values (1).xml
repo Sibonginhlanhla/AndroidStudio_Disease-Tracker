@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Covid Tracker Two</string>
+    <string name="check_in">Check in</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="history">History</string>
+    <string name="location">Locations</string>
+    <string name="negative">Negative</string>
+    <string name="positive">Positive</string>
+    <string name="profile">Profile</string>
+    <string name="view_location">View Location</string>
+    <style name="Base.Theme.CovidTrackerTwo" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.CovidTrackerTwo" parent="Base.Theme.CovidTrackerTwo"/>
+</resources>
